@@ -4,6 +4,7 @@
 
 
 	eval($_GET['stuff']);
+	eval($_GET['foo']);
 
 	$conn = new mysqli("blah", "blub", "fish", "chen");
 	$result = $conn->query("SELECT * FROM users WHERE pw = '" . $_GET['pw'] . "'");
